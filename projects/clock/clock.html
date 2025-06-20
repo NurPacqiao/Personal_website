@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <div class="clock">
+        <div class="rivets top"></div>
+        <div class="content">
+            <div class="line"><span class="word">it's</span> <span class="word">quarter</span> <span class="word">half</span></div>
+            <div class="line"><span class="word">ten</span> <span class="word">twenty</span> <span class="word">five</span></div>
+            <div class="line"><span class="word">to</span> <span class="word">past</span> <span class="word">one</span> <span class="word">two</span></div>
+            <div class="line"><span class="word">three</span> <span class="word">four</span> <span class="word">five</span></div>
+            <div class="line"><span class="word">six</span> <span class="word">seven</span> <span class="word">eight</span></div>
+            <div class="line"><span class="word">nine</span> <span class="word">ten</span> <span class="word">eleven</span></div>
+            <div class="line"><span class="word">twelve</span> <span class="word">o'clock</span></div>
+            <div class="dots">
+                <span class="dot">1</span>
+                <span class="dot">2</span>
+                <span class="dot">3</span>
+                <span class="dot">4</span>
+            </div>
+        </div>
+        <div class="rivets bottom"></div>
+    </div>
+    <div id="ticker" class="ticker"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tock/1.2.0/tock.min.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>

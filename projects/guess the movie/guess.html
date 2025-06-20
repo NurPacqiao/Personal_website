@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Movie</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+        <div class="game-container">
+          <h1>Guess the Movie</h1>
+          <div id="score">Score: 0</div>
+          <img id="movieImage" src="" alt="Movie Poster" />
+          <div class="input-box">
+            <input type="text" id="guessInput" placeholder="Enter movie name" />
+            <button onclick="checkGuess()" class="submit-btn btn" role="button">
+              Submit
+            </button>
+          </div>
+        </div>
+    
+        <div id="gameOverModal" class="modal">
+          <div class="modal-content"></div>
+        </div>
+
+        <script src="guess.js"></script>
+</body>
+</html>
