@@ -1,0 +1,85 @@
+:root {
+    --color-primary: dimgray;
+    --rotation-speed: 1s;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  body {
+    flex-direction: column;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 800px;
+    perspective-origin: 50%;
+  }
+  .image-cube {
+    width: 300px;
+    height: 300px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: var(--rotation-speed);  
+  }
+  .image-cube div {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-size: cover;
+    background-position: 50% 50%;
+    border: 3px solid white;
+    -webkit-box-reflect: below -3px linear-gradient(to bottom, rgba(0,0,0,0) 80%, rgba(0,0,0,0.15));
+  }
+  
+  .front {
+    background-image: url(avatarfilm.jpg.webp);
+    transform: translateZ(150px);
+  }
+
+  .right {
+    background-image: url(tic-tac-toe-icon-1024x1024-bmwf454z.png);
+    transform: rotateY(-270deg) translateX(150px);
+    transform-origin: 100% 0;
+  }
+  .back {
+    background-image: url(apps.39658.13748070934816609.a1123cd6-3b94-44ef-932f-4e977c3b824d.8c997a33-e61c-42bd-a117-4413310fa36f.png);
+    transform: translateZ(-150px) rotateY(180deg);
+  }
+  .left {
+    background-image: url(animal-memory-card-game_1308-113084.jpg.avif);
+    transform: rotateY(270deg) translateX(-150px);
+    transform-origin: 0 50%;
+  }
+  .btns {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 405px;
+    pointer-events: none;
+  }
+  .btns button {
+    background-color: transparent;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    background: var(--color-primary);
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.5);
+    pointer-events: all;
+  }
