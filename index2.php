@@ -1,2 +1,2 @@
 <?php
-    header("Location: zaloguj.php");
+header("Location: zaloguj.php");

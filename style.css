@@ -29,7 +29,7 @@ html
 
 body
 {
-    background: var(--bg-color);
+    background: var(--bc-color);
     color: var(--text-color);
 }
 
@@ -40,17 +40,17 @@ body
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background: transparent;
+    background: var(--bc-color);
     display: flex;
     justify-content: space-between;
     align-items:  center;
     z-index: 50;
-    transition: .3s;
+    transition: .2s;
 }
 
 
 .header.sticky{
-  background: var(--bg-color);
+  background: var(--bc-color);
   z-index: 1000;
 }
 
@@ -58,9 +58,9 @@ body
 .logo
 {
   position: relative;
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 600;
+  font-size: 2.5rem;
+  color: var(--text-color);
+  font-weight: 600;
 }
 
 .navbar{
@@ -72,7 +72,7 @@ body
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
-    transition: .3s;
+    transition: .2s;
  }
 
  .navbar a:hover{
@@ -140,7 +140,7 @@ body
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: homeBgText 6s linear infinite;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
  }
 
 
@@ -185,7 +185,7 @@ body
     color: var(--bg-color);
     z-index: 1;
     overflow: hidden;
-    transition: .5s;
+    transition: .3s;
  }
 
  .btn-box-form .btn-form{
@@ -204,7 +204,7 @@ body
   color: var(--bg-color);
   z-index: 1;
   overflow: hidden;
-  transition: .5s;
+  transition: .3s;
 }
 
  .btn-box .btn:hover{
@@ -251,7 +251,7 @@ body
    height: 100%;
    background: var(--bc-color);
    z-index: -1;
-   transition: .5s ;
+   transition: .3s ;
  }
 
  .btn-box-form .btn-form::before{
@@ -263,7 +263,7 @@ body
   height: 100%;
   background: var(--bc-color);
   z-index: -1;
-  transition: .5s ;
+  transition: .3s ;
 }
 
  .btn-box .btn:hover::before{
@@ -297,7 +297,7 @@ body
    color: var(--main-color);
    z-index: 1;
    overflow: hidden;
-   transition: .5s;
+   transition: .3s;
  }
 
  .home-sci a:hover{
@@ -311,9 +311,9 @@ body
    left: 0;
    width: 0;
    height: 100%;
-   background:var(--main-color);
+   background:var(--bc-color);
    z-index: -1;
-   transition: .5s;
+   transition: .3s;
  }
 
 
@@ -329,7 +329,7 @@ body
    width: 45%;
    height: 67%;
    background: transparent;
-   transition: 1.5s;
+   transition: 1s;
  }
 
 
@@ -344,7 +344,7 @@ body
    align-items: center;
    flex-direction: column;
    gap: 2rem;
-   background: var(--second-bg-color);
+   background: var(--bc-color);
    padding-bottom: 6rem;
  }
 
@@ -423,7 +423,7 @@ span{
   }
 
   .btn-box.btns a::before{
-     background: var(--second-bg-color);
+     background: var(--bc-color);
   }
 
   .btn-box-form.btns a::before{
@@ -437,6 +437,7 @@ span{
     flex-direction: column;
     min-height: auto;
     padding-bottom: 5rem;
+    background: var(--bc-color);
   }
 
   .education .education-row{
@@ -497,7 +498,7 @@ span{
     height: 100%;
     background: var(--second-bg-color);
     z-index: -1;
-    transition: .5s;
+    transition: .3s;
    }
 
    .education-content .content:hover::before{
@@ -529,7 +530,7 @@ span{
    .skills{
     min-height: auto;
     padding-bottom: 7rem;
-    background: var(--second-bg-color);
+    background: var(--bc-color);
    }
 
    .skills h2{
@@ -579,7 +580,7 @@ span{
     height: 100%;
     background: var(--bg-color);
     z-index: -1;
-    transition: .5s ;
+    transition: .3s ;
   }
 
 
@@ -664,6 +665,7 @@ span{
 .contact{
   min-height: auto;
   padding-bottom: 7rem;
+  background:var(--bc-color);
 }
 
 .contact h2{
@@ -752,7 +754,7 @@ span{
   background: var(--second-bg-color);
   border-radius: .6rem;
   z-index: -1;
-  transition: .5s;
+  transition: .3s;
 }
 
 
@@ -787,7 +789,7 @@ span{
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem 9%;
-  background: var(--second-bg-color);
+  background: var(--bc-color);
 }
 
 .footer-text, 
@@ -823,7 +825,7 @@ span{
   height: 100%;
   background: var(--second-bg-color);
   z-index: -1;
-  transition: .5s;
+  transition: .3s;
 }
 
 .footer-iconTop a:hover::before{
@@ -834,7 +836,7 @@ span{
 .footer-iconTop a i{
   font-size: 2.4rem;
   color: var(--bg-color);
-  transition: .5s;
+  transition: .3s;
 }
 
 
@@ -849,7 +851,7 @@ span{
   right: 0;
   width: 100%;
   height: 100%;
-  background: var(--bg-color);
+  background: var(--bc-color);
   z-index: 98;
 }
 
@@ -868,7 +870,7 @@ span{
 
 .logo .animate{
   animation: showRight 1s ease forwards;
-  animation-delay: calc(.3s * var(--i));
+  animation-delay: calc(.2s * var(--i));
 }
 
 .logo .animate,
@@ -876,13 +878,13 @@ span{
 #menu-icon .animate,
 .home.show-animate .animate{
   animation: showRight 1s ease forwards;
-  animation-delay: calc(.3s * var(--i));
+  animation-delay: calc(.2s * var(--i));
 }
 
 
 .animate.scroll{
   transition: 1s ease;
-  transition-delay: calc(.3s / var(--i));
+  transition-delay: calc(.2s / var(--i));
   animation: none;
 }
 
@@ -895,7 +897,7 @@ section:nth-child(1) .animate.scroll{
 section:nth-child(3) .animate.scroll,
 section:nth-child(5) .animate.scroll,
 .footer .animate.scroll{
-  background: var(--second-bg-color);
+  background: var(--bc-color);
 }
 
 
@@ -909,7 +911,7 @@ section:nth-child(5) .animate.scroll,
 .skills.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll{
-  transition-delay: calc(.3s * var(--i));
+  transition-delay: calc(.2s * var(--i));
   width: 0;
 }
 
@@ -950,7 +952,7 @@ section:nth-child(5) .animate.scroll,
 
 @media (max-width: 768px) {
   .header{
-    background: var(--bg-color);
+    background: var(--bc-color);
   }
 
   #menu-icon{
@@ -963,11 +965,11 @@ section:nth-child(5) .animate.scroll,
     left: -100%;
     width: 100%;
     padding: 1rem 4%;
-    background: var(--main-color);
+    background: var(--bc-color);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
     z-index: 99;
-    transition: .25s ease;
-    transition-delay: .25s;
+    transition: .2s ease;
+    transition-delay: .2s;
   }
 
   .navbar.active{
@@ -984,13 +986,13 @@ section:nth-child(5) .animate.scroll,
     background: var(--bg-color);
     border-top: .1rem solid rgba(0, 0, 0, .2);
     z-index: -1;
-    transition: .25s ease;
+    transition: .2s ease;
     transition-delay: 0s;
   }
 
   .navbar.active .active-nav{
     left: 0;
-    transition-delay: .25s;
+    transition-delay: .2s;
   } 
 
   .navbar a{
@@ -998,13 +1000,13 @@ section:nth-child(5) .animate.scroll,
     font-size: 2rem;
     margin: 3rem 0;
     transform: translateX(-20rem);
-    transition: .25s ease;
+    transition: .2s ease;
     transition-delay: 0s;
   }
 
   .navbar.active a{
     transform: translateX(0);
-    transition-delay: .25s;
+    transition-delay: .2s;
   }
 }
 
