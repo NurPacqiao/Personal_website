@@ -26,8 +26,8 @@ Check out the live website here:
 ## Contact
 
 Feel free to reach out:  
-- Email: [nurpacqiao@gmail.com]  
-- LinkedIn: [https://www.linkedin.com/in/nurlan-atamuratov/]  
+- Email: nurpacqiao@gmail.com
+- LinkedIn: https://www.linkedin.com/in/nurlan-atamuratov/
 - GitHub: [https://github.com/NurPacqiao](https://github.com/NurPacqiao)
 
 ---
