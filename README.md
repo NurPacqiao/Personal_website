@@ -1,4 +1,4 @@
-🌐 Portfolio Website
+🌐 Personal Website
 
 A personal portfolio website built with HTML5, CSS3, JavaScript, and Bootstrap, showcasing my projects, skills, and ways to get in touch.
 
