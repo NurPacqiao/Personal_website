@@ -5,26 +5,38 @@ A personal portfolio website built with HTML5, CSS3, JavaScript, and Bootstrap, 
 ⸻
 
 🚀 Features
-	•	Responsive design that works across devices
-	•	Projects section with descriptions and links
-	•	Skills showcase
-	•	Contact form for easy communication
-	•	Smooth scrolling and basic animations
+
+•	Responsive design that works across devices
+
+•	Projects section with descriptions and links
+
+•	Skills showcase
+
+•	Contact form for easy communication
+
+•	Smooth scrolling and basic animations
 
 ⸻
 
 🛠️ Technologies Used
-	•	HTML5 – structure
-	•	CSS3 – styling
-	•	JavaScript – interactive elements
-	•	Bootstrap – responsive layout and components
+
+•	HTML5 – structure
+
+•	CSS3 – styling
+
+•	JavaScript – interactive elements
+
+•	Bootstrap – responsive layout and components
 
 ⸻
 
 📦 How to Run
-	1.	Clone the repository:
+
+1.	Clone the repository:
+   
  git clone https://github.com/NurPacqiao/Personal_website.git
- 	2.	Navigate to the folder and open index.html in your web browser.
+ 
+2.	Navigate to the folder and open index.html in your web browser.
 
 ⸻
 
